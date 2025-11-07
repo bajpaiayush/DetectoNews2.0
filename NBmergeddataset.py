@@ -66,6 +66,6 @@ plt.savefig("confusion_matrix.png")
 plt.show()
 
 # Save model and vectorizer
-joblib.dump(model, "naive_bayes_model.pkl")
+joblib.dump(model, "naive_bayes_model2.pkl")
 joblib.dump(vectorizer, "tfidfnb2_vectorizer.pkl")
 print("🧠 Model and vectorizer saved successfully!")
